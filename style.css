@@ -1,0 +1,68 @@
+body {
+  background-color: #e7e5e5;
+}
+
+.bg-light {
+  background-color: #71797e !important;
+}
+
+.navbar-collapse {
+  padding-right: 1rem;
+}
+
+.navbar-nav {
+  flex-direction: row;
+}
+
+.banner {
+  position: relative;
+  padding-top: 20%;
+}
+
+.video-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  height: 100%;
+  transform: translateX(-50%);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.banner video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.navbar-brand {
+  color: black;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.nav-link {
+  color: bisque;
+}
+
+.card {
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+
+img {
+  vertical-align: middle;
+  height: 15rem;
+}
+
+@media (min-width: 1180px) {
+  #search-input {
+    width: 650px;
+  }
+}
